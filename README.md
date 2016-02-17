@@ -19,24 +19,24 @@ var id:String = AndroidMiscellaneous.getInstance().getDeviceId();
 ```
 AndroidMiscellaneous.getInstance().activateImmersiveMode(true);
 ```
--Get the device ID
+- Get the device ID
 ```
 var id:String = AndroidMiscellaneous.getInstance().getDeviceId();
 ```
 
--Get the the screen Height when immersive mode
+- Get the the screen Height when immersive mode
 ```
 var screenHeight:int=AndroidMiscellaneous.getInstance().getImmersiveScreenHeight();
 ```
 
--Get the the screen Width when immersive mode
+- Get the the screen Width when immersive mode
 ```
 var screenWidth:int=AndroidMiscellaneous.getInstance().getImmersiveScreenWidth();
 ```
 
 - Show Message using android native toast / param : msg:String,duration:int
 ```
-AndroidMiscellaneous.getInstance().showToast("coucou long",AndroidMiscellaneous.TOAST_LENGTH_LONG);
+AndroidMiscellaneous.getInstance().showToast("Hello Toast",AndroidMiscellaneous.TOAST_LENGTH_LONG);
 ```
 - Show Local Notification using android native notification /  param: title:String,msg:String,notificationID:int,isSoundOn:Boolean
 ```
